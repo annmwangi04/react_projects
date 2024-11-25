@@ -3,7 +3,7 @@ import './Contact.css'
 
 const Contact = () =>{
     return(
-        <section className="contact">
+        <section  id="Contact" className="contact">
             <form>
                <h2>Contact Form</h2>  
                <div className="input-box">
