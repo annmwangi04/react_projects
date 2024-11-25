@@ -1,0 +1,41 @@
+.agenda {
+    padding: 20px;
+    background-color: blanchedalmond;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center; 
+}
+
+.agenda-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+.agenda-content {
+    text-align: left; 
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.agenda h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sessions {
+    margin-top: 20px;
+}
+
+.session {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .agenda-image {
+        width: 100%;
+    }
+}

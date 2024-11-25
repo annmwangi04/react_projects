@@ -39,7 +39,8 @@ function Services() {
             content: 'We help you communicate complex technical information in a clear and concise manner. We use a variety of tools and techniques to create technical documents, such as user manuals, technical reports, whitepapers, and online help systems.'
         },
     ];
-    return ( <div id='services' className='services'> 
+    return ( 
+    <div id='services' className='services'> 
     <h1 className='services-title'>Services</h1>
      <h2 className='do-title'>What We Do.</h2>
       <div className='grid-container'> 
