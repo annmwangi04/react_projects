@@ -1,0 +1,67 @@
+/* General container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Grid layout for books */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual book card styling */
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Book image styling */
+  .book-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Book info styling */
+  .book-info {
+    padding: 15px;
+  }
+  
+  /* Book title styling */
+  .book-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive text for smaller screens */
+  @media (max-width: 600px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .book-title {
+      font-size: 1rem;
+    }
+  
+    .book-info p {
+      font-size: 0.9rem;
+    }
+  }
+  
